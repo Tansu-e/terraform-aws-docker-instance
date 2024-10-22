@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<Tansu-e/docker-instance/aws"
+    source = "Tansu-e/docker-instance/aws"
     key_name = "clarusway"
 }
 ```
